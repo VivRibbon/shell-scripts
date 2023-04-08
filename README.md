@@ -1,6 +1,9 @@
 # Assorted Shell Scripts
 I'm learning bash scripting so here's the repo for simple scripts I make to do stuff around my system.
 
+## Weather
+Calls curl wttr.in to display the weather in the terminal, updating every hour by default. Call with -a to see an ASCII display of the report for the next few days, -g to see a graph, -m to see a map, or -l for a one-line display. After any of these arguments, write a location name or airport code to get weather for that area - otherwise it'll default to your location. Calling the script with no argument will display the graph by default, calling it with a place name as the first (and only) argument will display the graphc for that location.
+
 ## Clear Pictures
 Moves into a chosen directory and removes all files following a chosen pattern. I use it to clear my screenshots folder, hence the name.
 

@@ -15,3 +15,6 @@ I initally wrote this to track down the .git directories on my computer, excludi
 ```
 printsearch.sh *.pdf
 ```
+
+## Countdown
+Simple countdown util I made to count down the days till summer vacation. When run checks how many days till the scripted date and prints the result with some entusiasm.

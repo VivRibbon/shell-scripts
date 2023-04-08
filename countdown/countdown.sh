@@ -17,7 +17,7 @@ until [[ $now -eq $free ]]; do
 	fi
 
 	if [[ $# -eq 0 ]]; then
-		exit 1
+		exit 0
 	else
 		sleep $(($1*60))
 	fi

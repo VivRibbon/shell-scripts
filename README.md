@@ -16,4 +16,12 @@ I initally wrote this to track down the .git directories on my computer, excludi
 printsearch.sh *.pdf
 ```
 ## Countdown
-Simple countdown util I made to count down the days till summer vacation. When run checks how many days till the scripted date and prints the result with some enthusiasm.
+Simple countdown util I made to count down the days till summer vacation. If run with an integer argument, will loop endlessly waiting that amount of minutes each time. Otherwise will print the time remaining an exit. So:
+```
+countdown.sh 60
+```
+will loop the script and print the time remaining every hour, while
+```
+countdown.sh
+```
+will print the time remaining once and return you to the prompt.

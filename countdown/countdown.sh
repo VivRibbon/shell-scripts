@@ -16,5 +16,11 @@ until [[ $now -eq $free ]]; do
 		echo $result days left!!!
 	fi
 
-	sleep 14400
+	if [[ $# -eq 0 ]]; then
+		exit 1
+	else
+		sleep $(($1*60))
+	fi
+
 done
+

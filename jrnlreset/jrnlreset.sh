@@ -14,5 +14,4 @@ echo >> jrnl.org
 echo "#+Title: JRNL" >> jrnl.org
 echo >> jrnl.org
 echo "* Journal" >> jrnl.org
-clear
 echo "Journal reset"

@@ -1,4 +1,4 @@
-#!/usr/bin/bas
+#!/usr/bin/bash
 
 #Sorts downloaded files of certain filetypes into appropriate Documents folders.
 

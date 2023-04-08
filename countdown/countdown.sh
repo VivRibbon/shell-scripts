@@ -8,8 +8,13 @@ difference=$(($free-$now))
 
 result=$(($difference/(3600*24)))
 
-if [[ $result -lt 8 ]]; then
-	echo "ONE WEEK ($result days) LEFT"
-else
-	echo $result days left!!!
-fi
+until [[ $now -eq $free ]]; do
+
+	if [[ $result -lt 8 ]]; then
+		echo "ONE WEEK ($result days) LEFT"
+	else
+		echo $result days left!!!
+	fi
+
+	sleep 14400
+done

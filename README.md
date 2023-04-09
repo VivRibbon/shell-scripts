@@ -1,8 +1,11 @@
 # Assorted Shell Scripts
 I'm learning bash scripting so here's the repo for simple scripts I make to do stuff around my system.
 
+## CTRL Panel
+Creates a simple "control panel" by launching a tmux session, splitting panes, and running various programs. By default it runs btop, a custom weather and time script (included in the same folder, if you use it make sure to comment out the line that runs "countdown.sh" if you're not also using my countdown script), ranger, and ncdu. What's run where can easily be changed by editing the script. Note that this is intended to take up a whole i3 workspace so it may display funkily if given less space than that. 
+
 ## Weather
-Calls curl wttr.in to display the weather in the terminal, updating every hour by default. Call with -a to see an ASCII display of the report for the next few days, -g to see a graph, -m to see a map, or -l for a one-line display. After any of these arguments, write a location name or airport code to get weather for that area - otherwise it'll default to your location. Calling the script with no argument will display the graph by default, calling it with a place name as the first (and only) argument will display the graphc for that location.
+Calls curl wttr.in to display the weather in the terminal, updating every hour by default. Call with -a to see an ASCII display of the report for the next few days, -g to see a graph, -m to see a map, or -l for a one-line display. After any of these arguments, write a location name or airport code to get weather for that area - otherwise it'll default to your location. Calling the script with no argument will display the graph by default, calling it with a place name as the first (and only) argument will display the graph for that location.
 
 ## Clear Pictures
 Moves into a chosen directory and removes all files following a chosen pattern. I use it to clear my screenshots folder, hence the name.

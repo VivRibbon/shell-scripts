@@ -7,6 +7,9 @@ Creates a simple "control panel" by launching a tmux session, splitting panes, a
 ## Weather
 Calls curl wttr.in to display the weather in the terminal, updating every hour by default. Call with -a to see an ASCII display of the report for the next few days, -g to see a graph, -m to see a map, or -l for a one-line display. After any of these arguments, write a location name or airport code to get weather for that area - otherwise it'll default to your location. Calling the script with no argument will display the graph by default, calling it with a place name as the first (and only) argument will display the graph for that location.
 
+## WRDCNT
+Super simple script to call wc with any number of files and return word, line, and character account clearly marked.
+
 ## Clear Pictures
 Moves into a chosen directory and removes all files following a chosen pattern. I use it to clear my screenshots folder, hence the name.
 
